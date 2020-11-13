@@ -100,14 +100,6 @@ ul {
   background-color: RoyalBlue;
 }
 
-.dark {
-  color: #fff;
-}
-
-.dark .btn {
-  background: #f4f4f4;
-  color: #333;
-}
 
 /* Showcase  */
 .showcase {
@@ -147,14 +139,7 @@ ul {
   opacity: 0.8;
 }
 
-.dark {
-  color: #fff;
-}
 
-.dark .btn {
-  background: #f4f4f4;
-  color: #333;
-}
 
 /* Home cards */
 
@@ -180,6 +165,10 @@ ul {
   color: #0067b8;
   font-weight: bold;
   text-transform: uppercase;
+}
+.home-cards a:hover {
+  color: #6ea3cc;
+  opacity: 0.8;
 }
 
 /* XBox */
@@ -568,4 +557,35 @@ animation-delay: 0, 2.5s;
  
   margin-bottom: 20px;
   /* padding: 50px; */
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.items.style1 > * {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.wrapper.style1 > .inner {
+  padding: 3.5rem 3.5rem 5rem 3.5rem ;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 64rem;
 }
